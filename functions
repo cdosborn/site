@@ -1,0 +1,51 @@
+# Prints all bash variables (one per line) from stdin
+#
+# This can be useful to get all the variables used in a template file.
+#
+# $ echo '${apple}' | template_vars
+# apple
+function template_vars {
+    grep -oP '\$\{\K[^}]*';
+}
+
+# Execute the template, warn if template variables are undefined
+#
+# $ template /path/to/template
+function template {
+    local TEMPLATE_PATH="$1" VARIABLES_PATH="$2" VARS_REQUIRED
+
+    # Parse the variables used in the template
+    VARS_REQUIRED=$(template_vars < ${TEMPLATE_PATH})
+
+    # Warn which variables are undefined
+    for EXPECTED_VAR in ${VARS_REQUIRED}; do
+        is_set "$EXPECTED_VAR" || {
+            echo "Warning: ${EXPECTED_VAR} in template: ${TEMPLATE_PATH} is unset."
+        }
+    done > /dev/stderr
+
+    # Execute the template in our current environment
+    { echo "cat <<EOF"; echo "$(< templates/index.html)"; echo "EOF"; } | bash
+}
+
+# Checks if a variable exists in the environment
+#
+# $ x='' is_set x && echo true
+# true
+# $ (! is_set y) && echo false
+# false
+function is_set {
+    [ -n "$(eval echo $(echo '${'${1}'+x}'))" ];
+    return;
+}
+
+function slugify {
+    echo "$1" | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+/-/g | sed -r s/^-+\|-+$//g | tr A-Z a-z
+}
+
+function time_to_read {
+   local num_words minutes;
+   num_words=$(wc -w < /dev/stdin);
+   minutes=$(bc <<< "($num_words / 200.0) + 1")
+   echo "$minutes"
+}

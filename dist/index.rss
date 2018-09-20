@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rss version="0.92">
+  <channel>
+    <title>Connor's weblog</title>
+    <link>https://www.cdosborn.com</link>
+    <language>en-us</language>
+    <description>A place to practice writing</description>
+    <item>
+      <title>An intro to copyright</title>
+      <link>https://cdosborn.com/posts/an-intro-to-copyright.html</link>
+      <description>A short post on copyright basics. I started looking into copyright when I was wondering if my blog would need a copyright symbol and date.</description>
+    </item>
+    <item>
+      <title>Reading notes on The Shape of Content</title>
+      <link>https://cdosborn.com/posts/reading-notes-on-the-shape-of-content.html</link>
+      <description>My thoughts on a book that discusses art by an artist turned lecturer: The Shape of Content.</description>
+    </item>
+  </channel>
+</rss>

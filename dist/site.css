@@ -1,0 +1,121 @@
+* {
+    word-break: break-word;
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Droid Serif', serif;
+}
+.nav {
+    margin: 1em 0 2em 0;
+    text-align: right;
+}
+.nav a {
+    display: inline;
+    font-family: 'Fira Mono', monospace;
+    font-size: 14px;
+    color: #959595;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+.footer p, .footer a, .monospace {
+    font-family: 'Fira Mono', monospace;
+    font-size: 14px;
+    color: #959595;
+}
+img {
+    margin-bottom: 1em;
+}
+p {
+    margin-bottom: 1em;
+    line-height:1.7;
+}
+
+.nav a + a {
+    margin-left: 0.5em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Fira Mono', monospace;
+    margin-bottom: 0.8em;
+    margin-left: -2px;
+}
+h2, h3, h4, h5 {
+    margin-top: 2.5em;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+
+div.header > h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: 'Fira Mono', serif;
+}
+
+code {
+    /* font-family: 'Fira Mono', monospace; */
+    font-family: 'Cousine', monospace;
+    font-size: 0.9em;
+}
+
+blockquote *, pre code {
+    font-family: 'Fira Mono', monospace;
+    line-height:1.5;
+}
+
+blockquote {
+    margin: 1.5em 0em 1.5em 2em;
+}
+
+pre {
+    margin: 0em 1em 1em 1em;
+}
+
+.header > p {
+    font-size: 0.8em;
+    font-family: 'Fira Mono', monospace;
+    margin: 0;
+    color: #959595;
+}
+
+.serif {
+    font-family: 'Droid Serif', serif;
+}
+
+.header {
+    margin: 0em 0em 2em;
+}
+
+div.footer {
+    margin: 4em 0 0;
+    width: 100%;
+}
+
+body {
+    color: #222;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.horizontalContainer {
+    max-width:38em;
+    margin: 0 auto;
+}
+
+.verticalContainer {
+    margin: 4em 1em 2em;
+}
+
+hr {
+    width: 50%;
+    margin: 2em auto;
+}
+
+.footnotes {
+    font-size: 0.9em;
+    margin-top: 4em;
+}
