@@ -49,3 +49,7 @@ function time_to_read {
    minutes=$(bc <<< "($num_words / 200.0) + 1")
    echo "$minutes"
 }
+
+function markdown {
+    pandoc --from gfm+smart --to html --output /dev/stdout "$@";
+}

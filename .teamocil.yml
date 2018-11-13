@@ -1,0 +1,10 @@
+windows:
+  - name: blog
+    root: ~/proj/blog
+    layout: main-horizontal
+    panes:
+      - git edit
+      - while true; do sleep 1; find . -not -path '^.git' | entr -d make; done
+      - commands:
+        - cd dist
+        - python -m SimpleHTTPServer
