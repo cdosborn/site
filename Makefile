@@ -4,7 +4,7 @@ BLOG_POSTS := $(basename $(wildcard posts/*))
 BLOG_POST_TARGETS := $(addsuffix .html, $(addprefix dist/, $(BLOG_POSTS)))
 COPY_TARGETS := $(addprefix dist/,$(COPY_PREREQS))
 
-all: dist/index.html dist/about.html dist/index.rss $(BLOG_POST_TARGETS) $(COPY_TARGETS)
+all: dist/index.html dist/about.html dist/rss.xml $(BLOG_POST_TARGETS) $(COPY_TARGETS)
 
 $(COPY_TARGETS): dist/%: $(COPY_PREREQS)
 	@echo Copying from $* to $@
@@ -32,7 +32,7 @@ dist/index.html: index.sh posts/*/variables fragments/* functions
 	  done } | \
 	./index.sh > $@
 
-dist/index.rss: posts/*/variables rss.sh variables functions
+dist/rss.xml: posts/*/variables rss.sh variables functions
 	@mkdir -p $(@D)
 	./rss.sh | \
 	xmllint --format - > $@
