@@ -11,7 +11,6 @@ cat <<TEMPLATE
         <title>${title}</title>
         <meta name="description" content="${description}" />
 	$(< ../../fragments/fonts.html)
-	$(< ../../fragments/google-analytics.html)
         <link rel="stylesheet" type="text/css" href="${stylesheet}"/>
     </head>
     <body>

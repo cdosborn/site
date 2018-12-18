@@ -23,7 +23,6 @@ cat <<TEMPLATE
         <meta name="description" content="${description}">
         <link rel="stylesheet" type="text/css" href="${stylesheet}" />
 	$(< fragments/fonts.html)
-	$(< fragments/google-analytics.html)
     </head>
     <body>
     <div class="horizontalContainer">

@@ -12,7 +12,6 @@ cat <<TEMPLATE
         <meta name="description" content="${description}" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet"/>
 	$(< ../../fragments/fonts.html)
-	$(< ../../fragments/google-analytics.html)
         <link rel="stylesheet" type="text/css" href="${stylesheet}"/>
         <style>
             blockquote {

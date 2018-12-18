@@ -10,7 +10,6 @@ cat <<TEMPLATE
         <title>${title}</title>
         <meta name="description" content="${description}">
 	$(< fragments/fonts.html)
-	$(< fragments/google-analytics.html)
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="${stylesheet}">
         <style>
