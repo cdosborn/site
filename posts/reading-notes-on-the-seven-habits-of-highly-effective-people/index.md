@@ -1,9 +1,7 @@
 Broadly speaking, this book answers the question, "How can one achieve their
 best?" Stephen Covey argues that you must learn to be independent—able
 to progress towards your best self. Then you must learn to be
-interdependent—able to combine your efforts with others. Covey defines
-effectiveness as the balance between _doing_ the most important thing and
-_ensuring_ your future ability to do it.
+interdependent—able to combine your efforts with others.
 
 The first three habits address private victory—being effective in your
 personal life. They are to live by the belief that you determine your life, to
