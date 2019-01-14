@@ -4,7 +4,7 @@
     <title>Connor's weblog</title>
     <link>https://www.cdosborn.com</link>
     <language>en-us</language>
-    <description>A place to practice writing</description>
+    <description>A place to share ideas and practice writing</description>
     <item>
       <title>Reading notes on The Courage to be Disliked</title>
       <link>https://cdosborn.com/posts/reading-notes-on-the-courage-to-be-disliked.html</link>
@@ -19,6 +19,11 @@
       <title>Reading notes on The Shape of Content</title>
       <link>https://cdosborn.com/posts/reading-notes-on-the-shape-of-content.html</link>
       <description>My thoughts on a book that discusses art by an artist turned lecturer: The Shape of Content.</description>
+    </item>
+    <item>
+      <title>Reading notes on The Seven Habits of Highly Effective People</title>
+      <link>https://cdosborn.com/posts/reading-notes-on-the-seven-habits-of-highly-effective-people.html</link>
+      <description>My thoughts on Stephen Covey's advice for being an effective person</description>
     </item>
   </channel>
 </rss>

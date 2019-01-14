@@ -25,16 +25,14 @@ cat <<TEMPLATE
                 <div>
                     <p>My name is Connor Osborn. I live in Tuscon. </p>
                     <p>
-                        My hope is that I can use this blog to improve my
-                        writing. I anticipate that most of the posts will be
-                        on technical, software related topics.
+                       My hope is that I can use this blog to improve my writing, and to share worthwhile ideas.
                     </p>
                     <p>
                         I have a personal motto: I want to understand a
                         few things well.
                     </p>
                     <p>
-                        Reach me at cdosborn@email.arizona.edu.
+                        Reach me at connor@cdosborn.com.
                     </p>
                 </div>
             </div>

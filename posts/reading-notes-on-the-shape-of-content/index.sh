@@ -10,7 +10,6 @@ cat <<TEMPLATE
         <meta charset="utf-8" />
         <title>${title}</title>
         <meta name="description" content="${description}" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet"/>
 	$(< ../../fragments/fonts.html)
         <link rel="stylesheet" type="text/css" href="${stylesheet}"/>
         <style>

@@ -16,15 +16,30 @@ cat <<TEMPLATE
             blockquote {
                 margin: 2.5em 0em 2.5em 1em;
             }
+            #title_a {
+		font-family: 'Fira Mono';
+		white-space: nowrap;
+		word-spacing: -5px;
+		font-size: 0.6em;
+		margin-bottom: 0.3em;
+		display: block;
+            }
+            #title_b {
+		display: block;
+ 		font-family: 'Fira Mono';
+		font-style: italic;
+		word-spacing: -5px;
+            }
         </style>
     </head>
     <body>
     <div class="horizontalContainer">
         <div class="verticalContainer">
             <div class="header">
-                <h1>Reading Notes on <span style="font-family: 'Fira Mono';
-                font-style: italic; white-space: nowrap; margin-left: 1em;
-                word-spacing: -5px; ">&lsquo;${book_name}&rsquo;</span></h1>
+                <h1>
+                <span id="title_a">Reading Notes on</span>
+                <span id="title_b">${book_name}</span>
+		</h1>
                 <p>$(date +"%B %-d, %Y" --date=$date)</p>
                 <p>$(time_to_read < index.md) min read</p>
             </div>

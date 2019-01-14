@@ -1,0 +1,5 @@
+book_name="The Seven Habits of Highly Effective People"
+title="Reading notes on $book_name"
+description="My thoughts on Stephen Covey's advice for being an effective person"
+date="1/13/2019"
+public=true
