@@ -31,9 +31,11 @@ The next three habits concern public victory or being effective in
 relationships. They are to seek outcomes where everyone wins, to understand
 before being understood, and to value others' differences.
 
-What does it mean to be effective in relationships? To receive the best in your
-relationships, people have to want to give their best. We are each driven by
-our own agendas, our own motivations, our own desires.
+What does it mean to be effective in relationships?
+
+To receive the best in your relationships, people have to want to give their
+best. We are each driven by our own agendas, our own motivations, and our own
+desires.
 
 > What is important to another person must be as important to you as the other
 person is to you
