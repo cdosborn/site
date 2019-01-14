@@ -23,24 +23,23 @@ meaningful way to the vision you have of your life as a whole.
 <span id="fn:2"></span>
 Covey offers the advice of writing a personal mission statement with an
 outline of your values. You might write that you refuse to lie in matters
-small and large, that you'll give people your full attention. The book
-describes how concrete values simplify the decisions we have to make. Covey
+small and large or that you'll give people your full attention. Covey
 keeps his mission statement within reach and reviews it regularly
 <a style="text-decoration:none" href="#fn:2:defn"><sup>2</sup></a>.
 
 The next three habits concern public victory or being effective in
-relationships. The are respectively to seek outcomes where everyone wins, to
-understand before being understood, and to value others' differences.
+relationships. They are to seek outcomes where everyone wins, to understand
+before being understood, and to value others' differences.
 
-I did not expect Covey's idea of interdependence. Wasn't this another kind of
-dependence? Working with others is inevitable, relationships are inevitable.
-A large degree of our effectiveness is how we're able to be effective in these
-relationships.
+What does it mean to be effective in relationships? To receive the best in your
+relationships, people have to want to give their best. We are each driven by
+our own agendas, our own motivations, our own desires.
 
-What does it mean to be effective in relationships? Is this leveraging others?
-The way to receive someone's best is to seek their best. If you can build
-trust, if you can deeply empathize, if you can seek outcomes that are truly
-win-win, then people will volunteer their best.
+> What is important to another person must be as important to you as the other
+person is to you
+
+If you can build trust, if you can deeply empathize and understand, if you can
+seek outcomes that are truly win-win, then people will volunteer their best.
 
 > You can buy a person’s hand, but you can’t buy his heart. His heart is where
 his enthusiasm, his loyalty is. You can buy his back, but you can’t buy his
@@ -49,9 +48,9 @@ brain. That’s where his creativity is, his ingenuity, his resourcefulness. ...
 because that’s what they are. They volunteer the best part—their hearts and
 minds.
 
-The final habit is renewal. Covey lists several dimensions of life that
-require constant investment. One of the dimensions is education. He offers the
-advice to begin reading—a lot.
+The final habit is renewal. Covey lists several dimensions of life that require
+constant investment. One of the dimensions is education. He offers the advice
+to read—a lot.
 
 > The person who doesn’t read is no better off than the person who can’t
 read.
@@ -82,9 +81,9 @@ immediate, he began to develop into himself.
 
 Their beliefs about their son profoundly affected how they saw him.
 
-Some books can be represented by a few quotes and ideas. I think it's unfair
-in this case. This post doesn't communicate the Covey who is vulnerable,
-humble, and earnest. The Kindle sample, includes the entire book. Give it a
+Some books can be represented by a few quotes and ideas. I think it's unfair in
+this case. This post doesn't communicate the Covey who is vulnerable, humble,
+and earnest. The Kindle sample on Amazon, includes the entire book. Give it a
 read and send me your thoughts.
 
 <div class="footnotes">
