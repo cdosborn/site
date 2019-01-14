@@ -10,10 +10,10 @@ consistently.
 
 <span id="fn:1"></span>
 Covey invites the reader to visualize their own funeral and the effect they
-will want their life to have had. The purpose is to begin thinking long-term,
+will want their life to have had <a style="text-decoration:none"
+href="#fn:1:defn"><sup>1</sup></a>. The purpose is to begin thinking long-term,
 to uncover your values, to think about who you want to be and what you want to
-accomplish
-<a style="text-decoration:none" href="#fn:1:defn"><sup>1</sup></a>.
+accomplish.
 
 > By keeping that end clearly in mind, you can make certain that whatever you
 do on any particular day does not violate the criteria you have defined as
@@ -83,7 +83,7 @@ Their beliefs about their son profoundly affected how they saw him.
 
 Some books can be represented by a few quotes and ideas. I think it's unfair in
 this case. This post doesn't communicate the Covey who is vulnerable, humble,
-and earnest. The Kindle sample on Amazon, includes the entire book. Give it a
+and earnest. The Kindle sample on Amazon includes the entire book. Give it a
 read and send me your thoughts.
 
 <div class="footnotes">
