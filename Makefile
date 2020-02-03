@@ -1,36 +1,52 @@
 SHELL := /bin/bash
-COPY_PREREQS := images/about.jpg site.css
+COPY_PREREQS := site.css
+COPY_TARGETS := $(addprefix dist/,$(COPY_PREREQS))
 BLOG_POSTS := $(basename $(wildcard posts/*))
 BLOG_POST_TARGETS := $(addsuffix .html, $(addprefix dist/, $(BLOG_POSTS)))
-COPY_TARGETS := $(addprefix dist/,$(COPY_PREREQS))
+IMAGES := $(wildcard images/*)
+IMAGE_TARGETS := $(addprefix dist/, $(IMAGES))
 
-all: dist/index.html dist/about.html dist/rss.xml $(BLOG_POST_TARGETS) $(COPY_TARGETS)
+all: dist/index.html dist/posts.html dist/about.html dist/rss.xml $(BLOG_POST_TARGETS) $(COPY_TARGETS) $(IMAGE_TARGETS)
 
 $(COPY_TARGETS): dist/%: $(COPY_PREREQS)
 	@echo Copying from $* to $@
 	@mkdir -p $(@D)
 	@cp $* $@
 
-dist/posts/%.html: posts/%/* fragments/* functions
+$(IMAGE_TARGETS): dist/images/%: $(IMAGES)
+	@echo "Copying images (and resizing to max width of 1080) $?"
 	@mkdir -p $(@D)
-	@{ cd posts/$*; \
+	for file in $?; do \
+	  magick $$file -resize 1080 dist/$$file; \
+	done
+
+$(BLOG_POST_TARGETS): dist/%.html: $(wildcard posts/*/*)
+	@mkdir -p $(@D)
+	@{ cd $*; \
 	   . variables; \
-	   if [ -z "$$public" -o "$$public" != "false"  ]; then \
+	   if [ -z "$$public" -o "$$public" = "true"  ]; then \
 	       ./index.sh > ../../$@; \
 	   fi; \
 	}
 
 dist/index.html: index.sh posts/*/variables fragments/* functions
 	@mkdir -p $(@D)
-	{ for vars_file in $(filter posts/%, $^); do \
+	./index.sh > $@
+
+dist/posts.html: posts.sh posts/*/variables fragments/* functions
+	@mkdir -p $(@D)
+	@{ for post_dir in $(wildcard ./posts/*); do \
 	    . functions; \
 	    ( \
-	      . $$vars_file; \
-	      if [ -n "$$public" -a "$$public" = "false"  ]; then continue; fi; \
-	      echo "./posts/$$(slugify "$$title").html $${date} $${title}"; \
+	      cd $$post_dir; \
+	      . variables; \
+	      if [ -z "$$public" -o "$$public" = "true"  ]; then \
+		echo "$${post_dir}.html $${date} $${title}"; \
+	      fi; \
 	     ) \
 	  done } | \
-	./index.sh > $@
+	./posts.sh > $@
+
 
 dist/rss.xml: posts/*/variables rss.sh variables functions
 	@mkdir -p $(@D)

@@ -8,7 +8,7 @@ function items {
               echo "
                 <item>
                     <title>$title</title>
-                    <link>https://$domain/posts/$(slugify "$title").html</link>
+                    <link>https://$domain/${post}.html</link>
                     <description>$description</description>
                 </item>";
           fi

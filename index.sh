@@ -2,18 +2,6 @@
 
 stylesheet="site.css"
 
-# renderRow(path,date,desc)
-function renderRow {
-    local path="$1";
-    local date="$2";
-    local desc="$3";
-    echo "
-    <div style='margin-bottom: 0.5em'>
-        <a class='no-decoration serif' href=${path}>${desc}</a>&nbsp;<span class='monospace' style='margin-left:1em'>${date}</span>
-    </div>
-    ";
-}
-
 cat <<TEMPLATE
 <!doctype html>
 <html lang="en">
@@ -21,23 +9,36 @@ cat <<TEMPLATE
         <meta charset="utf-8">
         <title>${title}</title>
         <meta name="description" content="${description}">
-        <link rel="stylesheet" type="text/css" href="${stylesheet}" />
 	$(< fragments/fonts.html)
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="${stylesheet}">
+        <style>
+            img {
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
-    <div class="horizontalContainer">
-        <div class="verticalContainer">
-            $(
-             while read path date title; do
-                  echo "$(date +%s --date="$date")" "$path" "$date" "$title"
-             done |
-             sort -rn |
-             while read sort_key path date desc; do
-                renderRow "$path" "$date" "$desc";
-             done;
-             )
+        <div class="horizontalContainer">
+            <div class="verticalContainer">
+                <img src="images/about.jpg"> </img>
+                <div>
+                    <p>
+                      My name is Connor. I live in <span style="text-decoration:line-through">Tuscon</span> Brooklyn.
+                    </p>
+                    <p>
+                      I'm a freelance web developer available for hire <a
+                      href="https://www.upwork.com/o/profiles/users/~01908259f8444ee40d">here</a>.
+                    </p>
+                    <p>
+                      I occasionally post <a href="/posts.html">here.</a>
+                    </p>
+                    <p>
+                        Reach me at connor@cdosborn.com.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
     </body>
 </html>
 TEMPLATE

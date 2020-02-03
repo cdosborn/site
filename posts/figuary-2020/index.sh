@@ -12,6 +12,25 @@ cat <<TEMPLATE
         <meta name="description" content="${description}" />
 	$(< ../../fragments/fonts.html)
         <link rel="stylesheet" type="text/css" href="${stylesheet}"/>
+        <style>
+            blockquote {
+                margin: 2.5em 0em 2.5em 1em;
+            }
+            #title_a {
+		font-family: 'Fira Mono';
+		white-space: nowrap;
+		word-spacing: -5px;
+		font-size: 0.6em;
+		margin-bottom: 0.3em;
+		display: block;
+            }
+            #title_b {
+		display: block;
+ 		font-family: 'Fira Mono';
+		font-style: italic;
+		word-spacing: -5px;
+            }
+        </style>
     </head>
     <body>
     <div class="horizontalContainer">
@@ -28,3 +47,4 @@ cat <<TEMPLATE
     </body>
 </html>
 TEMPLATE
+
