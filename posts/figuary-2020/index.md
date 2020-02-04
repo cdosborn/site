@@ -9,3 +9,11 @@ tended to not make the horiontal poses wide enough, and I'm drawing the neck
 too long.
 <image style="width:100%" src="/images/figuary-2020-day-2-review.jpg"/>
 
+**Day 3**.
+Today's session began with five fifteen second poses. In the really short
+ones, there are quite a few line pairs that should converge but diverge (and
+vice versa). Some of the later poses have good balance. I could probably slow
+down and make more deliberate longer strokes, I'm noticing many disconnected
+edges. I thought I did better in the one minutes poses than the five minutes
+pose.
+<image style="width:100%" src="/images/figuary-2020-day-3.png"/>
