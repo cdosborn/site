@@ -1,3 +1,4 @@
+.SECONDEXPANSION:
 SHELL := /bin/bash
 COPY_PREREQS := site.css
 COPY_TARGETS := $(addprefix dist/,$(COPY_PREREQS))
@@ -13,16 +14,14 @@ $(COPY_TARGETS): dist/%: $(COPY_PREREQS)
 	@mkdir -p $(@D)
 	@cp $* $@
 
-$(IMAGE_TARGETS): dist/images/%: $(IMAGES)
-	@echo "Copying images (and resizing to max width of 1080) $?"
+$(IMAGE_TARGETS): dist/%: %
 	@mkdir -p $(@D)
-	for file in $?; do \
-	  magick $$file -resize 1080 dist/$$file; \
-	done
+	magick $? -resize 1080 $@
 
-$(BLOG_POST_TARGETS): dist/%.html: $(wildcard posts/*/*)
+$(BLOG_POST_TARGETS): dist/posts/%.html: $$(wildcard posts/%/*)
+	@echo Generating $@
 	@mkdir -p $(@D)
-	@{ cd $*; \
+	@{ cd posts/$*; \
 	   . variables; \
 	   if [ -z "$$public" -o "$$public" = "true"  ]; then \
 	       ./index.sh > ../../$@; \

@@ -17,3 +17,10 @@ down and make more deliberate longer strokes, I'm noticing many disconnected
 edges. I thought I did better in the one minutes poses than the five minutes
 pose.
 <image style="width:100%" src="/images/figuary-2020-day-3.png"/>
+
+**Day 4**.
+Today's session featured the first male model. I'm consistently drawing the
+head too large. Overall pretty happy with the balance of each pose. I did lose
+the tension in the pose where the model is pulling the rope.
+<image style="width:100%" src="/images/figuary-2020-day-4.review.png"/>
+

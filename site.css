@@ -18,6 +18,7 @@
 }
 
 .footer p {
+    clear: both;
     margin-bottom: 0;
 }
 .footer p, .footer a, .monospace {
