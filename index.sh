@@ -25,12 +25,8 @@ cat <<TEMPLATE
                 <div>
                     <p>
                       My name is Connor. I live in <span style="text-decoration:line-through">Tuscon</span> Brooklyn.
-                    </p>
-                    <p>
                       I'm a freelance web developer available for hire <a
                       href="https://www.upwork.com/o/profiles/users/~01908259f8444ee40d">here</a>.
-                    </p>
-                    <p>
                       I occasionally post <a href="/posts.html">here.</a>
                     </p>
                     <p>

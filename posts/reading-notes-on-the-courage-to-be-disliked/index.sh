@@ -22,9 +22,10 @@ cat <<TEMPLATE
     <div class="horizontalContainer">
         <div class="verticalContainer">
             <div class="header">
-                <h1>Reading Notes on <span style="font-family: 'Fira Mono';
-                font-style: italic; white-space: nowrap; margin-left: 1em;
-                word-spacing: -5px; ">&lsquo;${book_name}&rsquo;</span></h1>
+                <h1>
+                  <span class="reading_notes_book_title_prefix">Reading Notes on</span>
+                  <span class="reading_notes_book_title">&lsquo;${book_name}&rsquo;</span>
+                </h1>
                 <p>$(date +"%B %-d, %Y" --date=$date)</p>
                 <p>$(time_to_read < index.md) min read</p>
             </div>

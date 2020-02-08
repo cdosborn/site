@@ -2,14 +2,43 @@
 
 stylesheet="site.css"
 
-# renderRow(path,date,desc)
+function formatDate {
+  date +"%Y" --date "$1";
+}
+
+set -x
+
+# renderRow(path,date,prev_date)
 function renderRow {
     local path="$1";
     local date="$2";
-    local desc="$3";
+    local prev_date="$3";
+    local title="$4";
+    local print_year=1
+
+    if [ -n "$prev_date" ]
+    then
+      # Only print the year if it's different than the previous
+      if [ $(date +%Y --date "$prev_date") = $(date +%Y --date "$date") ]
+      then
+        print_year=0
+      fi
+    fi
     echo "
-    <div style='margin-bottom: 0.5em'>
-        <a class='no-decoration serif' href=${path}>${desc}</a>&nbsp;<span class='monospace' style='margin-left:1em'>${date}</span>
+    <div style='margin-bottom: 0.5em; display: flex'>
+       <div style='flex: 1'>
+        <a class='no-decoration serif' href='${path}'>${title}</a>
+       </div>
+       $(
+         if [ "$print_year" = 1 ]
+         then
+           echo "
+           <div>
+             <span class='monospace' style='margin-left:1em'>$(date +%Y --date "$date")</span>
+           </div>
+           "
+         fi
+       )
     </div>
     ";
 }
@@ -32,9 +61,13 @@ cat <<TEMPLATE
                   echo "$(date +%s --date="$date")" "$path" "$date" "$title"
              done |
              sort -rn |
-             while read sort_key path date desc; do
-                renderRow "$path" "$date" "$desc";
-             done;
+             {
+               prev_date="";
+               while read sort_key path date title; do
+                  renderRow "$path" "$date" "$prev_date" "$title";
+                  prev_date="$date"
+               done;
+             }
              )
         </div>
     </div>

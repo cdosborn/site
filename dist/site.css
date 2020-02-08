@@ -1,20 +1,48 @@
-* {
+:root {
     word-break: break-word;
     margin: 0em;
     padding: 0em;
     font-family: 'Droid Serif', serif;
-    line-height:1.3;
+    line-height:1.3em;
+    font-size: 20px;
 }
+
+.reading_notes_book_title {
+  font-style: italic;
+  font-family: 'Fira Mono';
+  display: block;
+  word-spacing: -5px;
+}
+
+.reading_notes_book_title_prefix {
+  font-family: 'Fira Mono';
+  white-space: nowrap;
+  word-spacing: -5px;
+  font-size: 0.6em;
+  margin-bottom: 0.3em;
+  display: block;
+}
+
 .nav {
     margin: 1em 0 2em 0;
     text-align: right;
 }
+
+.header > p,
 .nav a {
-    display: inline;
     font-family: 'Fira Mono', monospace;
-    font-size: 14px;
+    font-size: 1em;
     color: #959595;
     text-decoration: none;
+    margin-bottom: 0;
+}
+
+.header > p {
+    font-family: 'Fira Mono', monospace;
+    font-size: 1em;
+    color: #959595;
+    text-decoration: none;
+    margin: 0;
 }
 
 .footer p {
@@ -23,7 +51,7 @@
 }
 .footer p, .footer a, .monospace {
     font-family: 'Fira Mono', monospace;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #959595;
 }
 img {
@@ -41,7 +69,7 @@ p {
 h1, h2, h3, h4, h5 {
     font-family: 'Fira Mono', monospace;
     margin-bottom: 0.8em;
-    margin-left: -2px;
+    margin-left: -10px;
 }
 h2, h3, h4, h5 {
     margin-top: 2.5em;
@@ -54,8 +82,9 @@ h2, h3, h4, h5 {
 
 div.header > h1 {
     font-size: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     font-family: 'Fira Mono', serif;
+    line-height: 1.2;
 }
 
 code {
@@ -77,13 +106,6 @@ pre {
     margin: 0em 1em 1em 1em;
 }
 
-.header > p {
-    font-size: 0.8em;
-    font-family: 'Fira Mono', monospace;
-    margin: 0;
-    color: #959595;
-}
-
 .serif {
     font-family: 'Droid Serif', serif;
 }
@@ -100,7 +122,6 @@ div.footer {
 body {
     color: #222;
     margin: 0;
-    font-size: 1.1em;
 }
 
 .horizontalContainer {
@@ -109,7 +130,7 @@ body {
 }
 
 .verticalContainer {
-    margin: 4em 1em 2em;
+    margin: 3em 1em 2em;
 }
 
 hr {
@@ -120,4 +141,22 @@ hr {
 .footnotes {
     font-size: 0.9em;
     margin-top: 4em;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  :root {
+    font-size: 42px;
+  }
+
+  .horizontalContainer {
+      margin: 0em 2em;
+      max-width: initial !important;
+  }
+
+  .verticalContainer {
+      margin: 3em 1em;
+  }
 }
