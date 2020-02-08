@@ -59,10 +59,10 @@
     color: #959595;
 }
 img {
-    margin-bottom: 1em;
+    display: block;
 }
 p {
-    margin-bottom: 1em;
+    margin-top: 0em;
     line-height:1.7;
 }
 
@@ -72,11 +72,10 @@ p {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Fira Mono', monospace;
-    margin-bottom: 0.8em;
-    margin-left: -10px;
-}
-h2, h3, h4, h5 {
-    margin-top: 2.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .no-decoration {
@@ -129,12 +128,14 @@ body {
 }
 
 .horizontalContainer {
-    max-width:38em;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 1em;
 }
 
 .verticalContainer {
-    margin: 2em 1em;
+    margin: 2em 0.5em;
+    max-width: 38em;
 }
 
 hr {
@@ -154,17 +155,12 @@ and (max-device-width : 667px) {
     font-size: 42px;
   }
 
-  .horizontalContainer {
-      margin: 0em 1em !important;
+  .verticalContainer {
       max-width: initial !important;
   }
 
-  .verticalContainer {
-      margin: 2em 1em;
-  }
-
   div.footer {
-      margin: kem 0 0;
+      margin: 2em 0 0;
       width: 100%;
   }
 }

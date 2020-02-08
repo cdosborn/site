@@ -21,7 +21,9 @@ cat <<TEMPLATE
     <body>
         <div class="horizontalContainer">
             <div class="verticalContainer">
-                <img src="images/about.jpg"> </img>
+                <p>
+                  <img src="images/about.jpg"> </img>
+                </p>
                 <p>
                   My name is Connor. I live in <span style="text-decoration:line-through">Tuscon</span> Brooklyn.
                   I'm a freelance web developer available for hire <a
