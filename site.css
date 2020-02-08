@@ -135,7 +135,8 @@ body {
 
 .verticalContainer {
     margin: 2em 0.5em;
-    max-width: 38em;
+    max-width: 36rem;
+    flex: 1;
 }
 
 hr {
