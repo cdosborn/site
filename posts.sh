@@ -14,14 +14,14 @@ function renderRow {
     local date="$2";
     local prev_date="$3";
     local title="$4";
-    local print_year=1
+    local date_opacity=1.0
 
     if [ -n "$prev_date" ]
     then
-      # Only print the year if it's different than the previous
+      # Only show the year if it's different than the previous
       if [ $(date +%Y --date "$prev_date") = $(date +%Y --date "$date") ]
       then
-        print_year=0
+        date_opacity=0
       fi
     fi
     echo "
@@ -29,16 +29,9 @@ function renderRow {
        <div style='flex: 1'>
         <a class='no-decoration serif' href='${path}'>${title}</a>
        </div>
-       $(
-         if [ "$print_year" = 1 ]
-         then
-           echo "
-           <div>
-             <span class='monospace' style='margin-left:1em'>$(date +%Y --date "$date")</span>
-           </div>
-           "
-         fi
-       )
+       <div>
+         <span class='monospace' style='opacity: ${date_opacity}; margin-left:1em'>$(date +%Y --date "$date")</span>
+       </div>
     </div>
     ";
 }
