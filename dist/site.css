@@ -54,6 +54,10 @@
     font-size: 0.875em;
     color: #959595;
 }
+.monospace_date {
+    font-family: 'Fira Mono', monospace;
+    color: #959595;
+}
 img {
     margin-bottom: 1em;
 }
@@ -130,7 +134,7 @@ body {
 }
 
 .verticalContainer {
-    margin: 3em 1em 2em;
+    margin: 2em 1em;
 }
 
 hr {
@@ -145,18 +149,22 @@ hr {
 
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
+and (max-device-width : 667px) {
   :root {
     font-size: 42px;
   }
 
   .horizontalContainer {
-      margin: 0em 2em;
+      margin: 0em 1em !important;
       max-width: initial !important;
   }
 
   .verticalContainer {
-      margin: 3em 1em;
+      margin: 2em 1em;
+  }
+
+  div.footer {
+      margin: kem 0 0;
+      width: 100%;
   }
 }

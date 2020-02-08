@@ -30,7 +30,7 @@ function renderRow {
         <a class='no-decoration serif' href='${path}'>${title}</a>
        </div>
        <div>
-         <span class='monospace' style='opacity: ${date_opacity}; margin-left:1em'>$(date +%Y --date "$date")</span>
+         <span class='monospace_date' style='opacity: ${date_opacity}; margin-left:1em'>$(date +%Y --date "$date")</span>
        </div>
     </div>
     ";

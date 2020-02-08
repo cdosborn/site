@@ -22,17 +22,15 @@ cat <<TEMPLATE
         <div class="horizontalContainer">
             <div class="verticalContainer">
                 <img src="images/about.jpg"> </img>
-                <div>
-                    <p>
-                      My name is Connor. I live in <span style="text-decoration:line-through">Tuscon</span> Brooklyn.
-                      I'm a freelance web developer available for hire <a
-                      href="https://www.upwork.com/o/profiles/users/~01908259f8444ee40d">here</a>.
-                      I occasionally post <a href="/posts.html">here.</a>
-                    </p>
-                    <p>
-                        Reach me at connor@cdosborn.com.
-                    </p>
-                </div>
+                <p>
+                  My name is Connor. I live in <span style="text-decoration:line-through">Tuscon</span> Brooklyn.
+                  I'm a freelance web developer available for hire <a
+                  href="https://www.upwork.com/o/profiles/users/~01908259f8444ee40d">here</a>.
+                  I occasionally post <a href="/posts.html">here.</a>
+                </p>
+                <p>
+                    Reach me at connor@cdosborn.com.
+                </p>
             </div>
         </div>
     </body>
