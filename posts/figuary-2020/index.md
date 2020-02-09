@@ -42,3 +42,14 @@ depended on getting the nuance right.
 
 I made several more attempts.
 <image style="width:100%" src="/images/figuary-2020-day-7-review.jpg"/>
+
+**Day 8**.
+In my mind's eye, I was seeing a larger torso. Paused the clock for the last
+pose, and happy with the result. The legs are messy but it feels believable.
+<image style="width:100%" src="/images/figuary-2020-day-8.jpg"/>
+
+
+**Day 9**. Unhappy with the last pose. I'm using dark strokes
+to "correct" previous lines that just end up being distracting. Happy with
+some of the two minute poses.
+<image style="width:100%" src="/images/figuary-2020-day-9.jpg"/>
