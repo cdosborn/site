@@ -53,3 +53,21 @@ pose, and happy with the result. The legs are messy but it feels believable.
 to "correct" previous lines that just end up being distracting. Happy with
 some of the two minute poses.
 <image style="width:100%" src="/images/figuary-2020-day-9.jpg"/>
+
+**Day 10**.
+<image style="width:100%" src="/images/figuary-2020-day-10.jpg"/>
+
+**Day 11**. Goal this session was to focus on getting the proportions right.
+Not attempting to pixel match the model, but capture the big ideas.
+<image style="width:100%" src="/images/figuary-2020-day-11.jpg"/>
+
+**Day 12**. For this session, I'm going to try and incorporate the advice to
+see the lines before I make them. On the two minute poses, I want to capture
+some of the basic shadow shapes.
+<image style="width:100%" src="/images/figuary-2020-day-12.jpg"/>
+
+**Day 13**. I'm happy with the previous day's shapes, the structure feels
+right. This time I'd like to develop the brow in my drawings. I think I'm
+being a bit too loose with the heads I'm drawing. In the longer drawings, I
+can apply a lighter foundation shadow, before reducing my brush size.
+<image style="width:100%" src="/images/figuary-2020-day-13.jpg"/>
