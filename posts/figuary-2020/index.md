@@ -71,3 +71,12 @@ right. This time I'd like to develop the brow in my drawings. I think I'm
 being a bit too loose with the heads I'm drawing. In the longer drawings, I
 can apply a lighter foundation shadow, before reducing my brush size.
 <image style="width:100%" src="/images/figuary-2020-day-13.jpg"/>
+
+**Day 14**. Today I want to focus on capturing the entire pose and making it
+balanced. Looking at the photo for the ideas, but drawing from my
+understanding.
+<image style="width:100%" src="/images/figuary-2020-day-14.jpg"/>
+
+**Day 15**. I'm noticing a trend where I'm drawing the torso too long and the
+legs too short.
+<image style="width:100%" src="/images/figuary-2020-day-15.jpg"/>
