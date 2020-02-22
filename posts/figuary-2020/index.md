@@ -80,3 +80,10 @@ understanding.
 **Day 15**. I'm noticing a trend where I'm drawing the torso too long and the
 legs too short.
 <image style="width:100%" src="/images/figuary-2020-day-15.jpg"/>
+
+**Day 16**. My intention is to be more confident about the lines I make. Let's
+see how it goes.
+<image style="width:100%" src="/images/figuary-2020-day-16.jpg"/>
+
+**Day 17**.
+<image style="width:100%" src="/images/figuary-2020-day-17.jpg"/>
