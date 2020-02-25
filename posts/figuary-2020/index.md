@@ -87,3 +87,13 @@ see how it goes.
 
 **Day 17**.
 <image style="width:100%" src="/images/figuary-2020-day-17.jpg"/>
+
+**Day 18**.
+Today's goal: Focus on torso to leg ratio and in general try and keep the big picture in mind.
+
+I paused the clock on each one, and I'm happy with the results.
+<image style="width:100%" src="/images/figuary-2020-day-18.jpg"/>
+
+**Day 19**.
+<image style="width:100%" src="/images/figuary-2020-day-19.jpg"/>
+
