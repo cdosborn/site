@@ -100,3 +100,14 @@ I paused the clock on each one, and I'm happy with the results.
 **Day 20**. Many short poses today. My results didn't turn out too well.
 <image style="width:100%" src="/images/figuary-2020-day-20.jpg"/>
 
+**Day 21**.
+<image style="width:100%" src="/images/figuary-2020-day-21.jpg"/>
+
+**Day 22**.
+<image style="width:100%" src="/images/figuary-2020-day-22.jpg"/>
+
+**Day 23**.
+<image style="width:100%" src="/images/figuary-2020-day-23.jpg"/>
+
+**Day 24**.
+<image style="width:100%" src="/images/figuary-2020-day-24.jpg"/>
