@@ -111,3 +111,11 @@ I paused the clock on each one, and I'm happy with the results.
 
 **Day 24**.
 <image style="width:100%" src="/images/figuary-2020-day-24.jpg"/>
+
+**Day 25**.
+<image style="width:100%" src="/images/figuary-2020-day-25.jpg"/>
+
+**Day 26**. Today I strictly adhered to the timings for each pose. Pretty
+tricky, lot's of room for improvement. The last post was continuously moving,
+I did okay.
+<image style="width:100%" src="/images/figuary-2020-day-26.jpg"/>
