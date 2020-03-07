@@ -59,3 +59,6 @@ dist/about.html: about.sh site.css images/about.jpg variables fragments/* functi
 clean:
 	@echo Cleaning up contents of dist folder
 	@find dist -mindepth 1 -delete
+
+deploy: all
+	rsync -avh dist/ cdosborn.com:/var/www/cdosborn.com

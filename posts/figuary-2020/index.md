@@ -119,3 +119,10 @@ I paused the clock on each one, and I'm happy with the results.
 tricky, lot's of room for improvement. The last post was continuously moving,
 I did okay.
 <image style="width:100%" src="/images/figuary-2020-day-26.jpg"/>
+
+**Day 27**. Today had some more moving poses. I don't feel like I stand a
+chance when I have to draw from memory.
+<image style="width:100%" src="/images/figuary-2020-day-27.jpg"/>
+
+**Day 28**.
+<image style="width:100%" src="/images/figuary-2020-day-28.jpg"/>
