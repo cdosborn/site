@@ -6,19 +6,24 @@
     <language>en-us</language>
     <description>A place to share ideas and practice writing</description>
     <item>
+      <title>Figure drawing for Figuary 2020</title>
+      <link>https://cdosborn.com/posts/figuary-2020.html</link>
+      <description>My figure drawings for the Figurary month long figure drawing event</description>
+    </item>
+    <item>
       <title>Reading notes on The Courage to be Disliked</title>
       <link>https://cdosborn.com/posts/reading-notes-on-the-courage-to-be-disliked.html</link>
       <description>My thoughts on a book which discusses Adlerian philosophy and psychology.</description>
     </item>
     <item>
-      <title>An intro to copyright</title>
-      <link>https://cdosborn.com/posts/an-intro-to-copyright.html</link>
-      <description>A short post on copyright basics. I started looking into copyright when I was wondering if my blog would need a copyright symbol and date.</description>
+      <title>Reading notes on The Seven Habits of Highly Effective People</title>
+      <link>https://cdosborn.com/posts/reading-notes-on-the-seven-habits-of-highly-effective-people.html</link>
+      <description>My thoughts on Stephen Covey's advice for being an effective person</description>
     </item>
     <item>
-      <title>Figure drawing for Figuary 2020</title>
-      <link>https://cdosborn.com/posts/figuary-2020.html</link>
-      <description>My figure drawings for the Figurary month long figure drawing event</description>
+      <title>Rebase then merge</title>
+      <link>https://cdosborn.com/posts/rebase-then-merge.html</link>
+      <description>A technical post on merging and rebasing in the git software development tool</description>
     </item>
     <item>
       <title>Reading notes on The Shape of Content</title>
@@ -26,9 +31,9 @@
       <description>My thoughts on a book that discusses art by an artist turned lecturer: The Shape of Content.</description>
     </item>
     <item>
-      <title>Reading notes on The Seven Habits of Highly Effective People</title>
-      <link>https://cdosborn.com/posts/reading-notes-on-the-seven-habits-of-highly-effective-people.html</link>
-      <description>My thoughts on Stephen Covey's advice for being an effective person</description>
+      <title>An intro to copyright</title>
+      <link>https://cdosborn.com/posts/an-intro-to-copyright.html</link>
+      <description>A short post on copyright basics. I started looking into copyright when I was wondering if my blog would need a copyright symbol and date.</description>
     </item>
   </channel>
 </rss>

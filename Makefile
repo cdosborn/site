@@ -18,7 +18,7 @@ $(IMAGE_TARGETS): dist/%: %
 	@mkdir -p $(@D)
 	magick $? -resize 1080 $@
 
-$(BLOG_POST_TARGETS): dist/posts/%.html: $$(wildcard posts/%/*)
+$(BLOG_POST_TARGETS): dist/posts/%.html: $$(wildcard posts/%/*) fragments/*
 	@echo Generating $@
 	@mkdir -p $(@D)
 	@{ cd posts/$*; \
