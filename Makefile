@@ -60,5 +60,8 @@ clean:
 	@echo Cleaning up contents of dist folder
 	@find dist -mindepth 1 -delete
 
+test-deploy: all
+	rsync -navh dist/ cdosborn.com:/var/www/cdosborn.com
+
 deploy: all
 	rsync -avh dist/ cdosborn.com:/var/www/cdosborn.com
