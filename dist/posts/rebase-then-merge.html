@@ -6,7 +6,7 @@
         <meta name="description" content="A technical post on merging and rebasing in the git software development tool" />
 	<!---->
     <link
-    href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700%7CFira+Mono:400,700" rel="stylesheet" />
+    href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700%7CFira+Mono:400,600" rel="stylesheet" />
 <!---->
         <link rel="stylesheet" type="text/css" href="../site.css"/>
     </head>
@@ -18,7 +18,7 @@
                 <p>August 9, 2020</p>
                 <p>4 min read</p>
             </div>
-            <p><em>This is a niche technical post on the software development tool <a href="https://git-scm.com/">git</a>.</em></p>
+            <p><em>This is a technical post on the software development tool <a href="https://git-scm.com/">git</a>.</em></p>
 <p>When you need to incorporate commits into your branch, you can perform a merge or you can perform a rebase. In a rebase, you’re constructing a new branch with your commits appended to the end. By appending, you’re left with a longer strand of commits. When you merge, the two histories are kept distinct.</p>
 <p>In this post, I’ll argue why you should only create “logical” merge commits–merge commits that introduce no new changes, but join branches together.</p>
 <p>Suppose you’re tasked with incorporating both these features into <code>master</code>.</p>

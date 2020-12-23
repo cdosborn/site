@@ -1,4 +1,4 @@
-_This is a niche technical post on the software development tool [git](https://git-scm.com/)._
+_This is a technical post on the software development tool [git](https://git-scm.com/)._
 
 When you need to incorporate commits into your branch, you can perform a merge
 or you can perform a rebase. In a rebase, you're constructing a new branch
