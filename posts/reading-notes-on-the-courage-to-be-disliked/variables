@@ -2,4 +2,4 @@ book_name="The Courage to be Disliked"
 title="Reading notes on $book_name"
 description="My thoughts on a book which discusses Adlerian philosophy and psychology."
 date="11/13/2018"
-public=true
+indexed=true

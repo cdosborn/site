@@ -23,9 +23,7 @@ $(BLOG_POST_TARGETS): dist/posts/%.html: $$(wildcard posts/%/*) fragments/*
 	@mkdir -p $(@D)
 	@{ cd posts/$*; \
 	   . variables; \
-	   if [ -z "$$public" -o "$$public" = "true"  ]; then \
-	       ./index.sh > ../../$@; \
-	   fi; \
+		 ./index.sh > ../../$@; \
 	}
 
 dist/index.html: index.sh posts/*/variables fragments/* functions
@@ -39,7 +37,7 @@ dist/posts.html: posts.sh posts/*/variables fragments/* functions
 	    ( \
 	      cd $$post_dir; \
 	      . variables; \
-	      if [ -z "$$public" -o "$$public" = "true"  ]; then \
+	      if [ -z "$$indexed" -o "$$indexed" = "true"  ]; then \
 		echo "$${post_dir}.html $${date} $${title}"; \
 	      fi; \
 	     ) \

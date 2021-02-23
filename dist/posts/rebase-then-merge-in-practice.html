@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Rebase then merge in practice</title>
+        <meta name="description" content="" />
+	<!---->
+    <link
+    href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700%7CFira+Mono:400,600" rel="stylesheet" />
+<!---->
+        <link rel="stylesheet" type="text/css" href="../site.css"/>
+    </head>
+    <body>
+    <div class="horizontalContainer">
+        <div class="verticalContainer">
+            <div class="header">
+                <h1>Rebase then merge in practice</h1>
+                <p>January 6, 2021</p>
+                <p>3 min read</p>
+            </div>
+            <p>In the past few months I worked for a client and managed a small project with their in-house development team.</p>
+<p>In August, I wrote a blog post <a href="/posts/rebase-then-merge.html">Rebase then merge</a> which outlined a specific approach for managing different branches of work. I had the opportunity to test this approach with this team. I found that it had some positive effects.</p>
+<p>A common practice is that a developer merges the main branch into their feature branch. They may do this several times and then push the resulting branch to be reviewed. This can be error prone, because a developer may run into conflicts and resolve them in a problemmatic way. A less experienced developer may remove work made by others. To counteract this, a reviewer needs to inspect every merge to make sure that this doesn’t happen. This is pretty inconvenient.</p>
+<p>In the suggested approach, a new developer is retrieving the latest main branch, rebasing their commits on top. Their work is always a set of changes on top of the latest work. The developer will have to resolve conflicts but these resolved conflicts are not hidden in merge commits. Each change made by the developer will appear in a non-merge commit.</p>
+<p>Logically this approach makes a bit more sense. Every commit is a snapshot of the entire project. This is true for merge and non-merge commits. Each non-merge commit has a single parent, and if you compare the parent (older snapshot) with the child (newer snapshot) you can think of the child snapshot as representing changes to the older snapshot. String a few of these commits together and you have a series of changes. This is the model most people think of when they use git.</p>
+<p>However, a merge commit cannot be thought of in this way. It has two parents and so the child can be compared to either parent. Each comparison would produce a separate set of changes. So a merge cannot be thought of as a set of changes, it’s just an arbitrary snapshot. There is no requirement that a change in the child come from either parent.</p>
+<p>The approach is all about eliminating these potentially problemmatic merge commits. While there was some upfront costs in the team switching to rebase, the git contributions became easier to reason about. I think the tradeoff is worthwhile. As soon as a few developers start regularly contributing it’s otherwise too easy for developers to accidentally step on each others’ contributions.</p>
+<p><a href="https://www.toptal.com/git" class="uri">https://www.toptal.com/git</a></p>
+            <div class="footer">
+    <p style="margin-bottom:1em"><a
+      href="https://tinyletter.com/cdosborn">Subscribe</a>. Read <a
+      href="/about.html">a few words about me</a>. See <a href="/posts.html">other posts</a>.</p>
+    <p>Connor Osborn 2018-2020. Licensed under a <a style="color:inherit"
+        rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">Creative Commons By License</a>.</p>
+</div>
+        </div>
+    </div>
+    </body>
+</html>

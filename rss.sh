@@ -4,7 +4,7 @@
 function items {
     for post in $(find posts -maxdepth 1 -mindepth 1 -type d); do
         ( . "${post}/variables";
-          if [ -z "$public" -o "$public" != "false"  ]; then
+          if [ -z "$indexed" -o "$indexed" != "false"  ]; then
               echo "
                 <item>
                     <title>$title</title>
