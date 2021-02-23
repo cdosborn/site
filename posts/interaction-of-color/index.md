@@ -37,7 +37,7 @@ looks even more blue.
 <div id="complementary" style="margin-bottom:32px"></div>
 
 This color influence (and this particular illusion) are a primary subject in
-Josef Albers' _Interaction of Color_. Alber's mentions that this effect may
+Josef Albers' _Interaction of Color_. Albers mentions that this effect may
 have its origins in the brain improving perception by increasing contrast.
 
 Hope you enjoy playing with the examples :).
